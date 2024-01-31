@@ -1,0 +1,137 @@
+p{
+  color: var(--Text-Color, #393C48);
+  text-align: center;
+  font-family: General Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  width: 835px;
+  height: 86px;
+  flex-shrink: 0;
+
+
+}
+
+h2{
+  color: var(--Text-Color-White, #FFF);
+  text-align: center;
+  font-family: General Sans;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 30PX;
+}
+a{
+  color: var(--Text-Color, #393C48);
+  font-family: General Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  }
+h1{
+  color: var(--Text-Color, #393C48);
+  text-align: center;
+  font-family:  "General Sans";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 787px;
+  height: 130px;
+  flex-shrink: 0;
+  margin-bottom: 40px;
+  }
+/* Mambers */
+.cards{
+  background: linear-gradient(254deg, #FFC6D1 17.72%, #CBBEFF 84.89%);
+}
+/* services */
+.card1{
+  border-radius: 10px;
+  background: linear-gradient(250deg, #FEADE7 0%, #A68CEE 100%);
+}
+.card2{
+  border-radius: 10px;
+  background: linear-gradient(180deg, rgba(166, 140, 238, 0.00) 0%, #21CFA9 100%);
+}
+h3{
+  color: var(--Text-Color, #393C48);
+  font-family: General Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+h4{
+  color: var(--Text-Color, #393C48);
+  font-family: General Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+/* section */
+.sec{
+  width: 1456px;
+  height: 469px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: radial-gradient(160.45% 160.45% at 50% 160.45%, #F59DAD 15.48%, #54468D 66.9%, #000 100%);
+  margin-left: 70px;
+  margin-bottom: 186px;
+}
+/* footer */
+.ftr{
+    width: 1580px;
+    height: 550px;
+    flex-shrink: 0;
+    background: #141414;
+  }
+h5{
+  color: var(--Text-Color-White, #FFF);
+  text-align: center;
+  font-family: "General Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+span{
+  color: var(--Base-Color, #967DFC);
+  font-family: "General Sans";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+  
+/* slider */
+.logos-slide img{
+  margin-top: 10px;
+  height: 70px;
+  margin-right: 10px;
+  font-size: 40px;
+  white-space: nowrap;
+  padding: 0 5rem;
+  letter-spacing: 1px;
+ 
+
+}
+.logos-slide{
+    height: 90px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #000;
+    overflow: hidden;
+  }
+.logos{
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+}
