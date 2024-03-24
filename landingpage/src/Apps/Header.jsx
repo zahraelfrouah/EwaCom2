@@ -6,7 +6,8 @@ const Header = () => {
   <div>
     <div className="container w-full">
         <section className="background-radial-gradient  text-center lg:text-left">
-         <div class="relative  bg-cover bg-no-repeat bg-[50%] bg-[url('https://s3-alpha-sig.figma.com/img/3bd3/18ee/83156dbfa0f4ce2941888737f1071664?Expires=1706486400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=q4qj~jBfNxOvDgLvdGqBy5BPfStQ3sB4TRtTI97n16dQyvklLFqN60SrFm466BcMv0nSdT~Q~PeOTNK6Mt4TedU72VoKYO23O49o5RTq92vkJzw6WTMbmTi0u6bT5tzrWDukUOv4goMnlgc9pU3qn7ls8oQuXy2VzG437uyG8g-ebTkaAUNwTNfGWvIeizvFH4oqabVNWm2ALO~sIJlrS10M7xEBpIuEKIaNPSCjZPf8CP-4JbDLHD0c0l5YwOb589ROUXeH5TLVMlrGmDf-VdgsVCXI676TWEOe7tV-5uznfMbmM29IAezFewEsNWgRn2lTZR4Cqnh3kb6EPn9Ejw__')] h-[774px] w-[1580px]">
+         <div class="relative bg-cover bg-center bg-no-repeat  h-full"
+      style={{ backgroundImage: `url('/Mask group.png')` }} >
          <div
             className="absolute top-0 right-0 bottom-0 left-0 h-full w-full   bg-fixed">
           <NavBare/>
